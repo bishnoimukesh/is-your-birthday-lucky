@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  font-family: Lato;
+  background-color: #dae5e7;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+
+label {
+    font-size: 1.1rem;
+    display: block;
+    margin: 0.5rem auto 0;
+    padding: 0.5rem;
+}
+
+input {
+    font-family: Lato;
+    font-size: 1.2rem;
+
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    padding: 1rem 1.5rem;
+    background-color: #d2e0e9;
+}
+
+button{
+    font-family: Lato;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #aac6cb;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem auto 0.5rem;
+}
+
+
+  button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  div#privacy-notice {
+    background-color: rgb(24, 24, 24);
+    color: #e1ecff;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin: 1.5rem auto 0;
+    max-width: 90%;
+    width: 730px;
+  }
+
+/* FOOTER */
+
+.footer{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   text-align: center;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 50px;
+    color: rgb(24, 4, 4);
+    text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(71, 135, 187);
+  font-size: 70px;
+}
+
